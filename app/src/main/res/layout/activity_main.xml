@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recognize text here!!"
+        android:id="@+id/txt_display"
+        android:layout_below="@+id/image_view"
+        android:textSize="26dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/capture_image"
+        android:text="capture image"
+        android:textSize="17dp"
+        android:layout_above="@+id/detect_text_image_btn"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detect_text_image_btn"
+        android:text="detect text"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
